@@ -20,7 +20,7 @@ labelled_trips, unlabelled_trips, val_trips, test_trips, pool_size = None, None,
 def train(model, device, optimiser, epochs, npool, r, LR, sampling, savename, initial_pool, fac, saver):
     print('training starts ..................................')
     # saving details
-    save_dir = '/home/SharedData/priyadarshini/'
+    save_dir = ''
     test_list,train_list,loss_list,total_acc_list,val_acc_list = [],[],[],[],[]
     best_state = model.state_dict()
     # order_list = []
