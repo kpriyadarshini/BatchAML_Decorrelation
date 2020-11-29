@@ -1,0 +1,6 @@
+PyTorch
+numpy
+matplotlib
+scipy.misc
+argparse
+pandas
